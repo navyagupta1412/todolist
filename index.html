@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Daily To-Do & Reflection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🌟 Daily Motivation App</h1>
+
+  <section id="quote-section">
+    <h2>Motivational Quote</h2>
+    <p id="quote"></p>
+  </section>
+
+  <section id="todo-section">
+    <h2>To-Do List</h2>
+    <input type="text" id="taskInput" placeholder="Enter a task">
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+  </section>
+
+  <section id="reflection-section">
+    <h2>Daily Reflection</h2>
+    <textarea id="reflectionInput" placeholder="How was your day?"></textarea>
+    <button onclick="saveReflection()">Save Reflection</button>
+    <p id="savedReflection"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
